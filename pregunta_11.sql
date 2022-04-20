@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT COUNT(*) as CANT FROM tbl1 GROUP BY SUBSTRING(c14, 1, 4) HAVING SUBSTRING(c14, 1, 4)='2018';
+SELECT COUNT(*) FROM tbl1 GROUP BY SUBSTRING(c14, 1, 4) HAVING SUBSTRING(c14, 1, 4)='2018';
