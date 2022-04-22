@@ -40,4 +40,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+<<<<<<< HEAD
 SELECT K0, c16 FROM tbl1 WHERE K0.SUBSTR(1,1)=Sc16.SUBSTR(1,1);
+=======
+SELECT K0, c16 FROM tbl1 WHERE K0.SUBSTR(1,1)=c16.SUBSTR(1,1);
+>>>>>>> refs/remotes/origin/main
