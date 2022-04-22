@@ -41,5 +41,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 
-SELECT K0, c16 FROM tbl1 WHERE K0.SUBSTR(1,1)=c16.SUBSTR(1,1);
+SELECT K0, c16 FROM tbl1 WHERE SUBSTR(K0,1,1)=SUBSTR(c16,1,1);
 
